@@ -30,12 +30,6 @@ vim.filetype.add({
 	},
 })
 
-autocmd("BufWritePre", {
-	group = fmt_group,
-	pattern = "*",
-	command = "undojoin | Neoformat",
-})
-
 autocmd("TextYankPost", {
 	group = yank_group,
 	pattern = "*",

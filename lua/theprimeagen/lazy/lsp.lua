@@ -29,6 +29,7 @@ return {
 				"prettier",
 			},
 		})
+		require("lspconfig").dartls.setup({})
 		require("mason-lspconfig").setup({
 			ensure_installed = {
 				"lua_ls",
