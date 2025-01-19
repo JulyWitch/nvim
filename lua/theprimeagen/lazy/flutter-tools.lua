@@ -8,6 +8,7 @@ return {
     },
     config = function()
         require("flutter-tools").setup {
+            flutter_lookup_cmd = "dirname $(which flutter)",
             fvm = false,
             widget_guides = { enabled = true },
             closing_tags = {

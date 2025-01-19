@@ -13,7 +13,7 @@ require("theprimeagen.lazy_init")
 -- DO NOT INCLUDE THIS
 -- DO.not
 
-vim.cmd('colorscheme rose-pine')
+vim.cmd('colorscheme nightfox')
 
 local augroup = vim.api.nvim_create_augroup
 local ThePrimeagenGroup = augroup("ThePrimeagen", {})
